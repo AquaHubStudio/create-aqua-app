@@ -1,6 +1,6 @@
 # **create-aqua-app**
 
-The official CLI to create a new application using the [Aqua Stack](#stack). Usually used at @AquaHubStudio to create new applications
+The official CLI to create a new application using the [Aqua Stack](#stack). Created at @AquaHubStudio to create new applications!
 
 ```bash
 npx create-aqua-app@latest
