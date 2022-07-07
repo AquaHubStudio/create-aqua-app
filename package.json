@@ -17,7 +17,9 @@
     "create-aqua-app": "./dist/index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pub-patch": "tsc --jsx preserve && npm version patch && npm publish",
+    "pub-minor": "tsc --jsx preserve && npm version minor && npm publish",
+    "pub-mayor": "tsc --jsx preserve && npm version major && npm publish"
   },
   "repository": {
     "type": "git",

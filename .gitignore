@@ -1,10 +1,6 @@
 # NextJS (template)
 
 /node_modules
-build/
-public/build/
-dist/
-generated/
 
 /src/template/.next
 /src/template/.swc
