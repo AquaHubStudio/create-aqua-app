@@ -6,7 +6,7 @@ import ora from "ora";
 import { PKG_ROOT } from "../defaults.js";
 import { execa } from "../utils/execCmdAsync.js";
 export const scaffoldProject = async ({ projectName, projectDir }) => {
-    const srcDir = path.join(PKG_ROOT, "template");
+    const srcDir = path.join(PKG_ROOT, "src/template");
     const spinner = ora(`Scaffolding in: ${projectDir}...\n`).start();
     if (fs.existsSync(projectDir)) {
         if (fs.readdirSync(projectDir).length === 0) {
