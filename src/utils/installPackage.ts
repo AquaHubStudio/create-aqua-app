@@ -1,4 +1,4 @@
-import { execa } from "./execCmdAsync";
+import { execa } from "./execCmdAsync.js";
 
 type InstallOpts = {
     devMode?: boolean;

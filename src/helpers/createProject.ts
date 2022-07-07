@@ -1,6 +1,6 @@
 import path from "path";
-import { installPackages } from "./installPackages";
-import { scaffoldProject } from "./scaffoldProject";
+import { installPackages } from "./installPackages.js";
+import { scaffoldProject } from "./scaffoldProject.js";
 
 export const validPackages = [
     "zustand",

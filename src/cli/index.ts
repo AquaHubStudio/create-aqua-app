@@ -1,11 +1,11 @@
 import chalk from "chalk";
 import { Command } from "commander";
-import { DEFAULT_APP_NAME } from "../defaults";
-import { getVersion } from "../utils/getVersion";
-import { logger } from "../utils/logger";
+import { DEFAULT_APP_NAME } from "../defaults.js";
+import { getVersion } from "../utils/getVersion.js";
+import { logger } from "../utils/logger.js";
 import inquirer from 'inquirer'
-import { validateAppName } from "../utils/validateName";
-import { validPackages, ValidPackages } from "../helpers/createProject";
+import { validateAppName } from "../utils/validateName.js";
+import { validPackages, ValidPackages } from "../helpers/createProject.js";
 
 interface CliResult {
     appName: string;

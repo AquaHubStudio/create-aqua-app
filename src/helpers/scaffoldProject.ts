@@ -5,7 +5,6 @@ import inquirer from "inquirer";
 import ora from "ora";
 import { PKG_ROOT } from "../defaults.js";
 import { execa } from "../utils/execCmdAsync.js";
-import { logger } from "../utils/logger.js";
 import { ValidPackages } from "./createProject.js";
 
 export interface InstallerOptions {
