@@ -18,7 +18,7 @@ export const scaffoldProject = async ({
   projectName,
   projectDir
 }: InstallerOptions) => {
-  const srcDir = path.join(PKG_ROOT, "template");
+  const srcDir = path.join(PKG_ROOT, "src/template");
 
   const spinner = ora(`Scaffolding in: ${projectDir}...\n`).start();
 
