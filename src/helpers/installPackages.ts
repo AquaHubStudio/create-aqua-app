@@ -15,10 +15,9 @@ export const installPackages = async ({
 }: InstallPackagesOptions) => {
   logger.info('Installing packages...');
 
-  console.log({ test: true, packages})
-  for (const [ name ] of packages) {
+  for (const name of packages) {
       const spinner = ora(`Installing ${name}...`).start();
-      await execa(`npm i ${name}`)
+      await execa(`npm i ${name}`, { cwd: projectDir })
       spinner.succeed(
         chalk.green(`Successfully installed ${chalk.green.bold(name)}`),
       );
