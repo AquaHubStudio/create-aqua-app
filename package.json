@@ -1,0 +1,47 @@
+{
+  "name": "create-aqua-app",
+  "version": "1.0.0",
+  "description": "Create a web application with one command with the whole aqua base stack",
+  "main": "index.js",
+  "keywords": [
+    "Jannis Milz",
+    "create-aqua-app",
+    "aqua stack",
+    "nextjs",
+    "prisma",
+    "typescript"
+  ],
+  "type": "module",
+  "exports": "./dist/index.js",
+  "bin": {
+    "create-aqua-app": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AquaHubStudio/create-aqua-app.git"
+  },
+  "author": "Jannis Milz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AquaHubStudio/create-aqua-app/issues"
+  },
+  "homepage": "https://github.com/AquaHubStudio/create-aqua-app#readme",
+  "devDependencies": {
+    "@types/figlet": "^1.5.4",
+    "@types/fs-extra": "^9.0.13",
+    "@types/inquirer": "^8.2.1",
+    "@types/node": "^18.0.3",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "chalk": "5.0.1",
+    "commander": "^9.3.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.0.0",
+    "ora": "6.1.2"
+  }
+}

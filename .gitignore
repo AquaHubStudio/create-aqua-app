@@ -1,0 +1,9 @@
+# NextJS (template)
+
+/node_modules
+
+/src/template/.next
+/src/template/.swc
+/src/template/node_modules
+/src/template/prisma/db.sqlite
+/src/template/prisma/.env
