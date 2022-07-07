@@ -13,14 +13,17 @@ export const installPackages = async ({
   projectDir,
   packages,
 }: InstallPackagesOptions) => {
-  logger.info('Installing packages...');
+  if(typeof packages !== 'undefined' && packages.length > 0) {
+    logger.info('Installing packages...');
 
-  for (const name of packages) {
-      const spinner = ora(`Installing ${name}...`).start();
-      await execa(`npm i ${name}`, { cwd: projectDir })
-      spinner.succeed(
-        chalk.green(`Successfully installed ${chalk.green.bold(name)}`),
-      );
+    for (const name of packages) {
+        const spinner = ora(`Installing ${name}...`).start();
+        await execa(`npm i ${name}`, { cwd: projectDir })
+        spinner.succeed(
+          chalk.green(`Successfully installed ${chalk.green.bold(name)}`),
+        );
+    }
   }
+  
   logger.info("");
 };
