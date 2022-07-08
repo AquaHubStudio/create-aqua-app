@@ -1,10 +1,10 @@
 # NextJS (template)
-
-/node_modules
-/dist
-
 /src/template/.next
 /src/template/.swc
 /src/template/node_modules
 /src/template/prisma/db.sqlite
 /src/template/prisma/.env
+
+# General
+/node_modules
+/dist
