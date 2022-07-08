@@ -6,8 +6,6 @@ The official CLI to create a new application using the [Aqua Stack](#stack). Cre
 npx create-aqua-app@latest
 ```
 
-<div id='stack'>
-
 ## **Stack**
 
 - [NextJS](https://nextjs.org)
@@ -21,14 +19,8 @@ npx create-aqua-app@latest
 - [Zustand](https://www.npmjs.com/package/zustand)
 - [Zod](https://www.npmjs.com/package/zod)
 
-</div>
-
-<div id='team'>
-
-## **Team**
+## **Team**
 
 This package is currently maintained by [Jannis Milz](https://github.com/JannisMilz)
 
 *Code from [create-t3-app](https://github.com/t3-oss/create-t3-app) is used in this package.*
-
-</div>
