@@ -23,8 +23,12 @@ npx create-aqua-app@latest
 
 </div>
 
+<div id='team'>
+
 ## **Team**
 
 This package is currently maintained by [Jannis Milz](https://github.com/JannisMilz)
 
 *Code from [create-t3-app](https://github.com/t3-oss/create-t3-app) is used in this package.*
+
+</div>
