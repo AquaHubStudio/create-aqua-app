@@ -1,6 +1,6 @@
 {
   "name": "create-aqua-app",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Create a web application using the aqua stack.",
   "main": "index.js",
   "keywords": [
